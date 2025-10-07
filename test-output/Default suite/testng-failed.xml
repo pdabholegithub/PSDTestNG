@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.psd.testng.TestNG_ClassTwo">
+      <class name="com.psd.testng.TestNG_timeOut">
         <methods>
-          <include name="login"/>
+          <include name="testcase1"/>
         </methods>
-      </class> <!-- com.psd.testng.TestNG_ClassTwo -->
+      </class> <!-- com.psd.testng.TestNG_timeOut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
