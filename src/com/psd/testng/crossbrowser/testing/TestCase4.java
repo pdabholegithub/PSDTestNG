@@ -8,6 +8,7 @@ public class TestCase4 extends TestNG_CrossBrowser {
 	public void login_searching_logout() throws InterruptedException {
 
 		System.out.println("Writing script for just searching");
+		Thread.sleep(3000);
 
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Shoe");
 		driver.findElement(By.id("nav-search-submit-button")).click();

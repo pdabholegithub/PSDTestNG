@@ -13,6 +13,7 @@ public class TestCase3 extends TestNG_CrossBrowser{
 	public void login_searching_cart_logout() throws InterruptedException {
 
 		System.out.println("Writing script for just searching and adding it to cart");
+		Thread.sleep(3000);
 
 		WebElement e1 = driver.findElement(By.id("twotabsearchtextbox"));
 		e1.sendKeys("Shoe" + Keys.ENTER);

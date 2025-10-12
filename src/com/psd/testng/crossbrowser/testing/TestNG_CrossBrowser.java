@@ -14,16 +14,18 @@ public class TestNG_CrossBrowser {
 	@BeforeMethod
 	@Parameters("browser")
 	public void launch(String nameofbrowser) {
-		System.out.println("Launching Browser");
-		if (nameofbrowser.equals("chrome")) {
 
+		if (nameofbrowser.equals("chrome")) {
+			System.out.println("Launching Chrome Browser");
 			driver = new ChromeDriver();
 		}
 		if (nameofbrowser.equals("firefox")) {
+			System.out.println("Launching Firefox Browser");
 
 			driver = new FirefoxDriver();
 		}
 		if (nameofbrowser.equals("edge")) {
+			System.out.println("Launching Edge Browser");
 
 			driver = new EdgeDriver();
 		}
