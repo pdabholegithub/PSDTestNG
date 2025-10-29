@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.psd.testng.amazon.AmazonLogin_Assertion">
+      <class name="com.psd.testng.Skip_Testcases">
         <methods>
-          <include name="verifyAmazonLogin"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
+          <include name="logout"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.psd.testng.amazon.AmazonLogin_Assertion -->
+      </class> <!-- com.psd.testng.Skip_Testcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

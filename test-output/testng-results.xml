@@ -1,20 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-20T23:19:40 IST" name="Suite" finished-at="2025-10-20T23:19:40 IST" duration-ms="97">
+  <suite started-at="2025-10-29T23:19:52 IST" name="Default suite" finished-at="2025-10-29T23:20:08 IST" duration-ms="15618">
     <groups>
-      <group name="smoke">
-        <method signature="Grouping_Testcases.method1()[pri:0, instance:com.psd.testng.Grouping_Testcases@74f0ea28]" name="method1" class="com.psd.testng.Grouping_Testcases"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-10-20T23:19:40 IST" name="Test" finished-at="2025-10-20T23:19:40 IST" duration-ms="97">
-      <class name="com.psd.testng.Grouping_Testcases">
-        <test-method signature="method1()[pri:0, instance:com.psd.testng.Grouping_Testcases@74f0ea28]" started-at="2025-10-20T23:19:40 IST" name="method1" finished-at="2025-10-20T23:19:40 IST" duration-ms="16" status="PASS">
+    <test started-at="2025-10-29T23:19:52 IST" name="Default test" finished-at="2025-10-29T23:20:08 IST" duration-ms="15618">
+      <class name="com.psd.excelsheet.program.DDTWithDataProviderAnnotations">
+        <test-method signature="fblogin_twodimentional(java.lang.String,java.lang.String)[pri:0, instance:com.psd.excelsheet.program.DDTWithDataProviderAnnotations@1ce24091]" started-at="2025-10-29T23:19:53 IST" name="fblogin_twodimentional" data-provider="logindetails" finished-at="2025-10-29T23:20:02 IST" duration-ms="8906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dabholeprasad9894@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prasad@1234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method1 -->
-      </class> <!-- com.psd.testng.Grouping_Testcases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- fblogin_twodimentional -->
+        <test-method signature="fblogin_twodimentional(java.lang.String,java.lang.String)[pri:0, instance:com.psd.excelsheet.program.DDTWithDataProviderAnnotations@1ce24091]" started-at="2025-10-29T23:20:02 IST" name="fblogin_twodimentional" data-provider="logindetails" finished-at="2025-10-29T23:20:08 IST" duration-ms="6194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fblogin_twodimentional -->
+      </class> <!-- com.psd.excelsheet.program.DDTWithDataProviderAnnotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
